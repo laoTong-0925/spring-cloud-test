@@ -1,0 +1,7 @@
+target/
+.project
+.settings
+*.iml
+.idea/
+src/test/java/temp/
+.settings/
