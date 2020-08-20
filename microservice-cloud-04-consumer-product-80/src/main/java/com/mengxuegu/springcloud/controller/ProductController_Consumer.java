@@ -15,8 +15,9 @@ import java.util.List;
 @RestController
 public class ProductController_Consumer {
 
-    private static final String REST_URL_PREFIX = "http://MICROSERVICE-PRODUCT";
-//    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    //private static final String REST_URL_PREFIX = "http://localhost:8001";
+    //修改为商品提供者向Eureka服务器中注册的地址
+    private static final String REST_URL_PREFIX = "http://microservice-product";
 
     @Autowired
     private RestTemplate restTemplate;

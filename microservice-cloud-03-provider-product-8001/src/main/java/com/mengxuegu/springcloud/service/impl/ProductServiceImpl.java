@@ -3,8 +3,6 @@ package com.mengxuegu.springcloud.service.impl;
 import com.mengxuegu.springcloud.entities.Product;
 import com.mengxuegu.springcloud.mapper.ProductMapper;
 import com.mengxuegu.springcloud.service.ProductService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

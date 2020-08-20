@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: /cloud/config/test01/discover/config-eureka

@@ -7,8 +7,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 /**
  * @Auther: t_t
  */
+@EnableEurekaClient //标识 是一个Eureka客户端
 @SpringBootApplication
-@EnableEurekaClient
 public class ProductConsumer_80 {
 
     public static void main(String[] args) {
